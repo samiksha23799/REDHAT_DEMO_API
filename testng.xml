@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.todo.tests.EditTask"/>
+      <class name="com.todo.tests.DeleteTask"/>
+      <class name="com.todo.tests.CreateTask"/>
+      <class name="com.todo.tests.FetchTask_By_ID"/>
+      <class name="com.todo.tests.Authenticate_Token"/>
+      <class name="com.todo.tests.Fetch_All_Task"/>
+      <class name="com.todo.tests.HelloController"/>
+      <class name="com.todo.tests.UserController"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

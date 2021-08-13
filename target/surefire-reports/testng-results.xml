@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="8" total="26" passed="18">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="9059" started-at="2021-07-21T16:22:21Z" finished-at="2021-07-21T16:22:30Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="9059" started-at="2021-07-21T16:22:21Z" finished-at="2021-07-21T16:22:30Z">
+      <class name="com.todo.tests.Authenticate_Token">
+        <test-method status="PASS" signature="setExtent()[pri:0, instance:com.todo.tests.Authenticate_Token@6e0dec4a]" name="setExtent" is-config="true" duration-ms="151" started-at="2021-07-21T16:22:21Z" finished-at="2021-07-21T16:22:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method status="PASS" signature="baseURI()[pri:0, instance:com.todo.tests.Authenticate_Token@6e0dec4a]" name="baseURI" is-config="true" duration-ms="642" started-at="2021-07-21T16:22:21Z" finished-at="2021-07-21T16:22:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseURI -->
+        <test-method status="PASS" signature="getAccessToken()[pri:0, instance:com.todo.tests.Authenticate_Token@6e0dec4a]" name="getAccessToken" duration-ms="3908" started-at="2021-07-21T16:22:22Z" finished-at="2021-07-21T16:22:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAccessToken -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.todo.tests.Authenticate_Token@6e0dec4a]" name="getResult" is-config="true" duration-ms="5" started-at="2021-07-21T16:22:26Z" finished-at="2021-07-21T16:22:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getAccessToken status=SUCCESS method=Authenticate_Token.getAccessToken()[pri:0, instance:com.todo.tests.Authenticate_Token@6e0dec4a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="baseURI()[pri:0, instance:com.todo.tests.Authenticate_Token@6e0dec4a]" name="baseURI" is-config="true" duration-ms="1" started-at="2021-07-21T16:22:26Z" finished-at="2021-07-21T16:22:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseURI -->
+        <test-method status="PASS" signature="invalid_getAccessToken()[pri:0, instance:com.todo.tests.Authenticate_Token@6e0dec4a]" name="invalid_getAccessToken" duration-ms="191" started-at="2021-07-21T16:22:26Z" finished-at="2021-07-21T16:22:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalid_getAccessToken -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.todo.tests.Authenticate_Token@6e0dec4a]" name="getResult" is-config="true" duration-ms="1" started-at="2021-07-21T16:22:26Z" finished-at="2021-07-21T16:22:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalid_getAccessToken status=SUCCESS method=Authenticate_Token.invalid_getAccessToken()[pri:0, instance:com.todo.tests.Authenticate_Token@6e0dec4a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="baseURI()[pri:0, instance:com.todo.tests.Authenticate_Token@6e0dec4a]" name="baseURI" is-config="true" duration-ms="1" started-at="2021-07-21T16:22:26Z" finished-at="2021-07-21T16:22:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseURI -->
+        <test-method status="PASS" signature="invalid_getAccessToken1()[pri:0, instance:com.todo.tests.Authenticate_Token@6e0dec4a]" name="invalid_getAccessToken1" duration-ms="42" started-at="2021-07-21T16:22:26Z" finished-at="2021-07-21T16:22:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalid_getAccessToken1 -->
+        <test-method status="PASS" signature="baseURI()[pri:0, instance:com.todo.tests.Authenticate_Token@6e0dec4a]" name="baseURI" is-config="true" duration-ms="1" started-at="2021-07-21T16:22:26Z" finished-at="2021-07-21T16:22:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseURI -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.todo.tests.Authenticate_Token@6e0dec4a]" name="getResult" is-config="true" duration-ms="0" started-at="2021-07-21T16:22:26Z" finished-at="2021-07-21T16:22:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalid_getAccessToken1 status=SUCCESS method=Authenticate_Token.invalid_getAccessToken1()[pri:0, instance:com.todo.tests.Authenticate_Token@6e0dec4a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="invalid_getAccessToken2()[pri:0, instance:com.todo.tests.Authenticate_Token@6e0dec4a]" name="invalid_getAccessToken2" duration-ms="46" started-at="2021-07-21T16:22:26Z" finished-at="2021-07-21T16:22:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalid_getAccessToken2 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.todo.tests.Authenticate_Token@6e0dec4a]" name="getResult" is-config="true" duration-ms="0" started-at="2021-07-21T16:22:26Z" finished-at="2021-07-21T16:22:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalid_getAccessToken2 status=SUCCESS method=Authenticate_Token.invalid_getAccessToken2()[pri:0, instance:com.todo.tests.Authenticate_Token@6e0dec4a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.todo.tests.Authenticate_Token@6e0dec4a]" name="endReport" is-config="true" duration-ms="642" started-at="2021-07-21T16:22:30Z" finished-at="2021-07-21T16:22:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.todo.tests.Authenticate_Token -->
+      <class name="com.todo.tests.CreateTask">
+        <test-method status="PASS" signature="create_Task()[pri:0, instance:com.todo.tests.CreateTask@5ccddd20]" name="create_Task" duration-ms="543" started-at="2021-07-21T16:22:28Z" finished-at="2021-07-21T16:22:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create_Task -->
+        <test-method status="PASS" signature="baseURI()[pri:0, instance:com.todo.tests.CreateTask@5ccddd20]" name="baseURI" is-config="true" duration-ms="0" started-at="2021-07-21T16:22:28Z" finished-at="2021-07-21T16:22:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseURI -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.todo.tests.CreateTask@5ccddd20]" name="getResult" is-config="true" duration-ms="0" started-at="2021-07-21T16:22:28Z" finished-at="2021-07-21T16:22:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=create_Task status=SUCCESS method=CreateTask.create_Task()[pri:0, instance:com.todo.tests.CreateTask@5ccddd20] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="invalid_create_Task_email()[pri:0, instance:com.todo.tests.CreateTask@5ccddd20]" name="invalid_create_Task_email" duration-ms="368" started-at="2021-07-21T16:22:28Z" finished-at="2021-07-21T16:22:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalid_create_Task_email -->
+        <test-method status="PASS" signature="baseURI()[pri:0, instance:com.todo.tests.CreateTask@5ccddd20]" name="baseURI" is-config="true" duration-ms="0" started-at="2021-07-21T16:22:28Z" finished-at="2021-07-21T16:22:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseURI -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.todo.tests.CreateTask@5ccddd20]" name="getResult" is-config="true" duration-ms="0" started-at="2021-07-21T16:22:29Z" finished-at="2021-07-21T16:22:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalid_create_Task_email status=SUCCESS method=CreateTask.invalid_create_Task_email()[pri:0, instance:com.todo.tests.CreateTask@5ccddd20] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="invalid_create_Task_priority()[pri:0, instance:com.todo.tests.CreateTask@5ccddd20]" name="invalid_create_Task_priority" duration-ms="285" started-at="2021-07-21T16:22:29Z" finished-at="2021-07-21T16:22:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalid_create_Task_priority -->
+        <test-method status="PASS" signature="baseURI()[pri:0, instance:com.todo.tests.CreateTask@5ccddd20]" name="baseURI" is-config="true" duration-ms="0" started-at="2021-07-21T16:22:29Z" finished-at="2021-07-21T16:22:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseURI -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.todo.tests.CreateTask@5ccddd20]" name="getResult" is-config="true" duration-ms="0" started-at="2021-07-21T16:22:29Z" finished-at="2021-07-21T16:22:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalid_create_Task_priority status=SUCCESS method=CreateTask.invalid_create_Task_priority()[pri:0, instance:com.todo.tests.CreateTask@5ccddd20] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="baseURI()[pri:0, instance:com.todo.tests.CreateTask@5ccddd20]" name="baseURI" is-config="true" duration-ms="1" started-at="2021-07-21T16:22:29Z" finished-at="2021-07-21T16:22:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseURI -->
+        <test-method status="PASS" signature="invalid_create_Task_taskname()[pri:0, instance:com.todo.tests.CreateTask@5ccddd20]" name="invalid_create_Task_taskname" duration-ms="274" started-at="2021-07-21T16:22:29Z" finished-at="2021-07-21T16:22:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalid_create_Task_taskname -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.todo.tests.CreateTask@5ccddd20]" name="getResult" is-config="true" duration-ms="1" started-at="2021-07-21T16:22:29Z" finished-at="2021-07-21T16:22:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalid_create_Task_taskname status=SUCCESS method=CreateTask.invalid_create_Task_taskname()[pri:0, instance:com.todo.tests.CreateTask@5ccddd20] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.todo.tests.CreateTask -->
+      <class name="com.todo.tests.DeleteTask">
+        <test-method status="PASS" signature="baseURI()[pri:0, instance:com.todo.tests.DeleteTask@1f3f4916]" name="baseURI" is-config="true" duration-ms="1" started-at="2021-07-21T16:22:30Z" finished-at="2021-07-21T16:22:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseURI -->
+        <test-method status="PASS" signature="delete_Task()[pri:0, instance:com.todo.tests.DeleteTask@1f3f4916]" name="delete_Task" duration-ms="363" started-at="2021-07-21T16:22:30Z" finished-at="2021-07-21T16:22:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete_Task -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.todo.tests.DeleteTask@1f3f4916]" name="getResult" is-config="true" duration-ms="1" started-at="2021-07-21T16:22:30Z" finished-at="2021-07-21T16:22:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=delete_Task status=SUCCESS method=DeleteTask.delete_Task()[pri:0, instance:com.todo.tests.DeleteTask@1f3f4916] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.todo.tests.DeleteTask -->
+      <class name="com.todo.tests.EditTask">
+        <test-method status="PASS" signature="baseURI()[pri:0, instance:com.todo.tests.EditTask@1ed1993a]" name="baseURI" is-config="true" duration-ms="0" started-at="2021-07-21T16:22:29Z" finished-at="2021-07-21T16:22:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseURI -->
+        <test-method status="PASS" signature="edit_Task()[pri:0, instance:com.todo.tests.EditTask@1ed1993a]" name="edit_Task" duration-ms="352" started-at="2021-07-21T16:22:29Z" finished-at="2021-07-21T16:22:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- edit_Task -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.todo.tests.EditTask@1ed1993a]" name="getResult" is-config="true" duration-ms="1" started-at="2021-07-21T16:22:30Z" finished-at="2021-07-21T16:22:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=edit_Task status=SUCCESS method=EditTask.edit_Task()[pri:0, instance:com.todo.tests.EditTask@1ed1993a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.todo.tests.EditTask -->
+      <class name="com.todo.tests.UserController">
+        <test-method status="PASS" signature="baseURI()[pri:0, instance:com.todo.tests.UserController@96def03]" name="baseURI" is-config="true" duration-ms="1" started-at="2021-07-21T16:22:26Z" finished-at="2021-07-21T16:22:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseURI -->
+        <test-method status="PASS" signature="createUser()[pri:0, instance:com.todo.tests.UserController@96def03]" name="createUser" duration-ms="231" started-at="2021-07-21T16:22:26Z" finished-at="2021-07-21T16:22:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.todo.tests.UserController@96def03]" name="getResult" is-config="true" duration-ms="1" started-at="2021-07-21T16:22:26Z" finished-at="2021-07-21T16:22:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createUser status=SUCCESS method=UserController.createUser()[pri:0, instance:com.todo.tests.UserController@96def03] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="baseURI()[pri:0, instance:com.todo.tests.UserController@96def03]" name="baseURI" is-config="true" duration-ms="1" started-at="2021-07-21T16:22:26Z" finished-at="2021-07-21T16:22:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseURI -->
+        <test-method status="PASS" signature="invalid_createUser_email()[pri:0, instance:com.todo.tests.UserController@96def03]" name="invalid_createUser_email" duration-ms="223" started-at="2021-07-21T16:22:26Z" finished-at="2021-07-21T16:22:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalid_createUser_email -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.todo.tests.UserController@96def03]" name="getResult" is-config="true" duration-ms="1" started-at="2021-07-21T16:22:26Z" finished-at="2021-07-21T16:22:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalid_createUser_email status=SUCCESS method=UserController.invalid_createUser_email()[pri:0, instance:com.todo.tests.UserController@96def03] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="baseURI()[pri:0, instance:com.todo.tests.UserController@96def03]" name="baseURI" is-config="true" duration-ms="1" started-at="2021-07-21T16:22:26Z" finished-at="2021-07-21T16:22:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseURI -->
+        <test-method status="PASS" signature="invalid_createUser_firstname()[pri:0, instance:com.todo.tests.UserController@96def03]" name="invalid_createUser_firstname" duration-ms="246" started-at="2021-07-21T16:22:26Z" finished-at="2021-07-21T16:22:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalid_createUser_firstname -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.todo.tests.UserController@96def03]" name="getResult" is-config="true" duration-ms="0" started-at="2021-07-21T16:22:27Z" finished-at="2021-07-21T16:22:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalid_createUser_firstname status=SUCCESS method=UserController.invalid_createUser_firstname()[pri:0, instance:com.todo.tests.UserController@96def03] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="invalid_createUser_lastname()[pri:0, instance:com.todo.tests.UserController@96def03]" name="invalid_createUser_lastname" duration-ms="225" started-at="2021-07-21T16:22:27Z" finished-at="2021-07-21T16:22:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalid_createUser_lastname -->
+        <test-method status="PASS" signature="baseURI()[pri:0, instance:com.todo.tests.UserController@96def03]" name="baseURI" is-config="true" duration-ms="0" started-at="2021-07-21T16:22:27Z" finished-at="2021-07-21T16:22:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseURI -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.todo.tests.UserController@96def03]" name="getResult" is-config="true" duration-ms="0" started-at="2021-07-21T16:22:27Z" finished-at="2021-07-21T16:22:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalid_createUser_lastname status=SUCCESS method=UserController.invalid_createUser_lastname()[pri:0, instance:com.todo.tests.UserController@96def03] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="invalid_createUser_password()[pri:0, instance:com.todo.tests.UserController@96def03]" name="invalid_createUser_password" duration-ms="245" started-at="2021-07-21T16:22:27Z" finished-at="2021-07-21T16:22:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalid_createUser_password -->
+        <test-method status="PASS" signature="baseURI()[pri:0, instance:com.todo.tests.UserController@96def03]" name="baseURI" is-config="true" duration-ms="0" started-at="2021-07-21T16:22:27Z" finished-at="2021-07-21T16:22:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseURI -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.todo.tests.UserController@96def03]" name="getResult" is-config="true" duration-ms="1" started-at="2021-07-21T16:22:27Z" finished-at="2021-07-21T16:22:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalid_createUser_password status=SUCCESS method=UserController.invalid_createUser_password()[pri:0, instance:com.todo.tests.UserController@96def03] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="baseURI()[pri:0, instance:com.todo.tests.UserController@96def03]" name="baseURI" is-config="true" duration-ms="1" started-at="2021-07-21T16:22:27Z" finished-at="2021-07-21T16:22:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseURI -->
+        <test-method status="PASS" signature="invalid_loginUser_Password()[pri:0, instance:com.todo.tests.UserController@96def03]" name="invalid_loginUser_Password" duration-ms="294" started-at="2021-07-21T16:22:27Z" finished-at="2021-07-21T16:22:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalid_loginUser_Password -->
+        <test-method status="PASS" signature="baseURI()[pri:0, instance:com.todo.tests.UserController@96def03]" name="baseURI" is-config="true" duration-ms="2" started-at="2021-07-21T16:22:27Z" finished-at="2021-07-21T16:22:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseURI -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.todo.tests.UserController@96def03]" name="getResult" is-config="true" duration-ms="0" started-at="2021-07-21T16:22:27Z" finished-at="2021-07-21T16:22:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalid_loginUser_Password status=SUCCESS method=UserController.invalid_loginUser_Password()[pri:0, instance:com.todo.tests.UserController@96def03] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="invalid_loginUser_email()[pri:0, instance:com.todo.tests.UserController@96def03]" name="invalid_loginUser_email" duration-ms="247" started-at="2021-07-21T16:22:27Z" finished-at="2021-07-21T16:22:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalid_loginUser_email -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.todo.tests.UserController@96def03]" name="getResult" is-config="true" duration-ms="0" started-at="2021-07-21T16:22:28Z" finished-at="2021-07-21T16:22:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalid_loginUser_email status=SUCCESS method=UserController.invalid_loginUser_email()[pri:0, instance:com.todo.tests.UserController@96def03] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="loginUser()[pri:0, instance:com.todo.tests.UserController@96def03]" name="loginUser" duration-ms="268" started-at="2021-07-21T16:22:28Z" finished-at="2021-07-21T16:22:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginUser -->
+        <test-method status="PASS" signature="baseURI()[pri:0, instance:com.todo.tests.UserController@96def03]" name="baseURI" is-config="true" duration-ms="0" started-at="2021-07-21T16:22:28Z" finished-at="2021-07-21T16:22:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseURI -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.todo.tests.UserController@96def03]" name="getResult" is-config="true" duration-ms="1" started-at="2021-07-21T16:22:28Z" finished-at="2021-07-21T16:22:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginUser status=SUCCESS method=UserController.loginUser()[pri:0, instance:com.todo.tests.UserController@96def03] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.todo.tests.UserController -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,19 @@
+2021-08-10 15:41:46,507  INFO [main] BaseTest:66 - Report Started
+ 2021-08-10 15:41:47,500  INFO [main] BaseTest:59 - 
+============ New Test Case==============
+
+ 2021-08-10 15:41:47,510  INFO [main] DeleteTask:30 - Valid Scenario: Delete Task
+ 2021-08-10 15:41:48,614  INFO [main] BaseTest:24 - Username:-  todolist
+ 2021-08-10 15:41:48,614  INFO [main] BaseTest:25 - Password:- password
+ 2021-08-10 15:41:48,887  INFO [main] HttpOperation:23 - Request Sent to to get access Token
+ 2021-08-10 15:41:53,588  INFO [main] BaseTest:54 - {firstName=Sakshi, lastName=Kapoor, password=Qwerty@123, email=sakshi.kapoor@gmail.com}
+ 2021-08-10 15:41:53,590  INFO [main] HttpOperation:64 - Request Sent to Login User
+ 2021-08-10 15:41:53,678  INFO [main] DeleteTask:40 - Response received for login
+ 2021-08-10 15:41:53,716  INFO [main] DeleteTask:46 - Received User TokeneyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzYWtzaGkua2Fwb29yQGdtYWlsLmNvbSIsImV4cCI6MTYyODgwNjMxMywiaWF0IjoxNjI4NTkwMzEzfQ.cIFHx_VKR6OSZfYWK_stBgTs3gnf3i3ULAejQ_Ld--8
+ 2021-08-10 15:41:53,772  INFO [main] BaseTest:90 - {=, Execution Required=yes, TaskName=Sample Task 1, Priority=8.0, TestCaseName=Valid Scenario- When all the data are valid, Duedate=2021-09-15}
+ 2021-08-10 15:41:53,775  INFO [main] HttpOperation:78 - Request Sent to create Taskio.restassured.internal.RequestSpecificationImpl@6caf7803
+ 2021-08-10 15:41:53,934  INFO [main] DeleteTask:55 - Received Task ID:-  7
+ 2021-08-10 15:41:53,936  INFO [main] HttpOperation:93 - Request Sent to delete Task
+ 2021-08-10 15:41:54,167  INFO [main] DeleteTask:60 - Response received for delete the taskSuccessfully Deleted
+ 2021-08-10 15:41:54,168  INFO [main] DeleteTask:65 - Assertion Passed!!
+ 

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="7673" started-at="2021-08-10T10:11:46Z" finished-at="2021-08-10T10:11:54Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="7673" started-at="2021-08-10T10:11:46Z" finished-at="2021-08-10T10:11:54Z">
+      <class name="com.todo.tests.DeleteTask">
+        <test-method status="PASS" signature="setExtent()[pri:0, instance:com.todo.tests.DeleteTask@50eac852]" name="setExtent" is-config="true" duration-ms="243" started-at="2021-08-10T10:11:46Z" finished-at="2021-08-10T10:11:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method status="PASS" signature="baseURI()[pri:0, instance:com.todo.tests.DeleteTask@50eac852]" name="baseURI" is-config="true" duration-ms="957" started-at="2021-08-10T10:11:46Z" finished-at="2021-08-10T10:11:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseURI -->
+        <test-method status="PASS" signature="delete_Task()[pri:0, instance:com.todo.tests.DeleteTask@50eac852]" name="delete_Task" duration-ms="6669" started-at="2021-08-10T10:11:47Z" finished-at="2021-08-10T10:11:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete_Task -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.todo.tests.DeleteTask@50eac852]" name="getResult" is-config="true" duration-ms="9" started-at="2021-08-10T10:11:54Z" finished-at="2021-08-10T10:11:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=delete_Task status=SUCCESS method=DeleteTask.delete_Task()[pri:0, instance:com.todo.tests.DeleteTask@50eac852] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.todo.tests.DeleteTask@50eac852]" name="endReport" is-config="true" duration-ms="676" started-at="2021-08-10T10:11:54Z" finished-at="2021-08-10T10:11:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.todo.tests.DeleteTask -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
